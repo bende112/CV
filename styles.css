@@ -1,0 +1,81 @@
+.form {
+  display: contents;
+  display: flex;
+  max-width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  gap: 0.5rem;
+  padding:10px;
+  border-radius:5px;
+  flex-direction:column;
+}
+
+textarea {
+  max-width: 400px;
+  height: 150px;
+  padding: 12px border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: aliceblue;
+  font-size: 16px;
+  resize: none;
+}
+
+.contact {
+  text-align: center;
+}
+
+label {
+  color: #B4886B;
+  font-weight: bold;
+  width: 130px;
+  float: left;
+}
+
+input[type=text],select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+
+}
+
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+input[type=submit] {
+  background-color: #B4886B;
+  position: relative;
+}
+
+
+input {
+  width: 50%;
+  background-color: none;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+div {
+  text-align: center;
+}
+
+
