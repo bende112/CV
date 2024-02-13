@@ -5,25 +5,32 @@
     <meta charset="UTF-8">
 
     <title>My Contact Details</title>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
+    <div class="contact">
     <h3>My Contact Details</h3>
     <ul>
         <li>Email: nkubende@yahoo.com</li>
         <li>Phone: 07944818182</li>
         <li>Location: Norwich UK</li>
     </ul>
+</div>
     <hr>
+    <div class="form">
     <form action="mailto:nkubende@yahoo.com" method="post" enctype="text/plain">
-        <label>Your name:</label>
-        <input type="text" name="yourName" value=""><br>
-        <label>Email:</label>
-        <input type="email" name="yourEmail" value=""><br>
-        <label>Your Message:</label><br>
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="E-mail"  name='email' data-required="true" data-type="email" data-error-message="Your E-mail is required">
+
+        <label for='firstname'>First Name</label>
+        <input type="text" placeholder="Name" name='name' id='name' data-required="true" data-error-message="Your Name is required">
+
+        <label>Message:</label><br>
         <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
         <input type="submit">
     </form>
+</div>
 </body>
 
 </html>
